@@ -59,7 +59,6 @@ Function.prototype.curry = function (numArgs) {
       args.push(arg);
       args.shift();
 
-      //ask why this works here?
       return that.apply(this, args);
     } else {
       args.push(arg);
